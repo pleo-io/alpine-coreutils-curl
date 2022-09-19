@@ -1,0 +1,12 @@
+---
+version: 1
+service:
+  name: alpine-coreutils-curl
+  lifecycle: generally_available
+  owner: sre 
+  language:
+  description: |-
+    Docker image with curl
+  tags:
+    - key: type
+      value: application
